@@ -159,16 +159,6 @@ class Questions extends React.Component {
       );
     }, this);
 
-   /* const myButton = () => {
-      if (count >= 10) {
-        return (
-          <button onClick={this.toggleResultsVisibility}>See Results</button>
-        );
-      } else {
-        return <button onClick={this.nextQuestion}>Next question</button>;
-      }
-    };*/
-
     return (
       <div>
         <p>{this.state.question}</p>
