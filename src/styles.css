@@ -1,0 +1,31 @@
+body {
+  background-color: salmon;
+  text-align: center;
+  color: snow;
+  font-size: 20px;
+}
+
+h1 {
+  color: snow;
+  padding-bottom: 20px;
+}
+
+.answer {
+  width: 31%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #87ebeb;
+  color: #1a7575;
+  padding: 5px 30px;
+  margin-bottom: 3px;
+}
+
+button {
+  padding: 10px;
+  color: salmon;
+  font-weight: bold;
+  border: 1px solid #87ebeb;
+  margin-top: 20px;
+  outline: none;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,66 @@
+$lightColor: snow;
+$darkColor: rgb(26, 117, 117);
+@mixin answerDivs {
+  width: 31%;
+  margin: 0 auto;
+  text-align: left;
+  color: $darkColor;
+  padding: 20px 40px;
+  margin-bottom: 3px;
+}
+
+body {
+  font-family: "Gayathri", sans-serif;
+  background-color: salmon;
+  text-align: center;
+  color: $lightColor;
+  font-size: 20px;
+}
+
+h1 {
+  color: rgb(205, 235, 235);
+  padding-bottom: 5px;
+}
+
+.answer {
+  background-color: rgb(135, 235, 235);
+  @include answerDivs();
+}
+
+button {
+  padding: 10px;
+  color: salmon;
+  font-weight: bold;
+  border: 1px solid rgb(135, 235, 235);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+h6 {
+  margin: 5px 1px;
+}
+
+.results {
+  background-color: $lightColor;
+  color: $darkColor;
+  width: 31%;
+  margin: 0 auto;
+  padding: 5px 30px;
+}
+
+.color {
+  background-color: rgb(30, 236, 150);
+  @include answerDivs();
+}
+
+@media only screen and(max-width:760px) {
+  .answer,
+  .color,
+  .results {
+    width: 60%;
+  }
+  body {
+    padding: 0px 20px;
+  }
+}
